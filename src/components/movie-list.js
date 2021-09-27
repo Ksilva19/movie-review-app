@@ -42,7 +42,7 @@ export default class MovieList extends React.Component {
                 </div>
                 <div>
                     <ReviewList />
-                </div><br/>
+                </div><br/><br/>
 
                 <Movie {...movieTwo} />
                 <div className="card">
@@ -54,7 +54,7 @@ export default class MovieList extends React.Component {
                 </div>
                 <div>
                     <ReviewList />
-                </div><br/>
+                </div><br/><br/>
 
                 <Movie {...movieThree} />
                 <div className="card">
@@ -66,7 +66,7 @@ export default class MovieList extends React.Component {
                 </div>
                 <div>
                     <ReviewList />
-                </div><br/>
+                </div><br/><br/>
             </div>
         );
 
