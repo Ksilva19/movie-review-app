@@ -33,40 +33,22 @@ export default class MovieList extends React.Component {
         return (
             <div className="container">
                 <Movie {...movieOne} />
-                <div className="card">
-                    <ReviewForm />
-                    <button
-                        className="btn btn-primary">
-                            <label>Submit</label>
-                    </button>
-                </div>
                 <div>
                     <ReviewList />
-                </div><br/><br/>
+                </div>
+                <br/><br/>
 
                 <Movie {...movieTwo} />
-                <div className="card">
-                    <ReviewForm />
-                    <button
-                        className="btn btn-primary">
-                            <label>Submit</label>
-                    </button>
-                </div>
                 <div>
                     <ReviewList />
-                </div><br/><br/>
+                </div>
+                <br/><br/>
 
                 <Movie {...movieThree} />
-                <div className="card">
-                    <ReviewForm />
-                    <button
-                        className="btn btn-primary">
-                            <label>Submit</label>
-                    </button>
-                </div>
                 <div>
                     <ReviewList />
-                </div><br/><br/>
+                </div>
+                <br/><br/>
             </div>
         );
 

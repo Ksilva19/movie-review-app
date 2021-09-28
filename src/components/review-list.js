@@ -1,25 +1,28 @@
 import React from 'react';
 import Review from './review';
+import ReviewForm from './review-form';
 
 export default class ReviewList extends React.Component {
     render () {
-        let reviewOne = {
+        let reviews = [
+            {
             content: 'This is one review',
             username: 'Jimmy13'
-        };
-        let reviewTwo = {
+            },
+            {
             content: 'This is another review',
             username: 'Tammy15'
-        };
-        let reviewThree = {
+            },
+            {
             content: 'This is one more review',
             username: 'Sandy19'
-        };
+            }
+        ];
         return (
-            <div>
-                <Review {...reviewOne}/>
-                <Review {...reviewTwo}/>
-                <Review {...reviewThree}/>
+            <div className="card">
+                <ReviewForm />
+                <Review {...{reviews}}/>
+                <Review {...{content: 'Here is another review', username: 'Gaby90'}}/>
             </div>
         );
     }

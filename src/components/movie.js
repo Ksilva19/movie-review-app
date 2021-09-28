@@ -5,19 +5,19 @@ export default class Movie extends React.Component {
         return (
             <div className="card">
                 <div className="card-header bg-primary text-white">
-                {this.props.title}
+                    {this.props.title}
                 </div>
                 <div className="card-body">
-                {this.props.image}
+                    {this.props.image}
                 </div>
                 <div className="card-body">
-                {this.props.synopsis}
+                    {this.props.synopsis}
                 </div>
                 <div className="card-body">
-                {this.props.genre}
+                    {this.props.genre}
                 </div>
                 <div className="card-body">
-                {this.props.rating}
+                    {this.props.rating}
                 </div>
             </div>
         );

@@ -7,6 +7,9 @@ export default class ReviewForm extends React.Component {
             <div className="card-body">
                 <label>Write a Review</label>
                 <input type="text" class="form-control" placeholder="Type here"/>
+                <button className="btn btn-primary">
+                            <label>Submit</label>
+                </button>
             </div>
         </form>
         );
