@@ -1,6 +1,4 @@
 import React from 'react';
-import Review from './review';
-
 
 export default class ReviewForm extends React.Component{
 	state = {
@@ -30,8 +28,8 @@ export default class ReviewForm extends React.Component{
             </div>
             <div>
                 <h5 className="card-header bg-primary text-white">Reviews:</h5>
-                    {this.state.reviews.map((subItems, sIndex) => {
-                    return <li className="card-body" key={sIndex}> {subItems}</li>
+                    {this.state.reviews.map((content, comment) => {
+                    return <li className="card-body" key={comment}> {content}</li>
                     })}
             </div>
 		</div>
